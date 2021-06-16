@@ -1,0 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: "Sen-Regular";
+    src: url("../fonts/regular/sen-regular-webfont.woff2") format("woff2"),
+         url("../fonts/regular/sen-regular-webfont.woff") format("woff"),
+         url("../fonts/regular/Sen-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Sen-Bold";
+    src: url("../fonts/bold/sen-bold-webfont.woff2") format("woff2"),
+         url("../fonts/bold/sen-bold-webfont.woff") format("woff"),
+         url("../fonts/bold/Sen-Bold.ttf") format("ttf");
+}

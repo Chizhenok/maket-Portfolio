@@ -1,0 +1,55 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+    font-family: "Sen-Regular", sans-serif;
+    color:#FFFFFF;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color:#000000;
+}
+
+.wrapper {
+    max-width: 1440px;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+@media all and (min-width:451px) and (max-width:768px) {
+    .wrapper {
+        max-width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media all and (max-width:450px) {
+    .wrapper {
+        max-width: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
